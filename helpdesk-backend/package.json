@@ -1,0 +1,47 @@
+{
+  "name": "helpdesk-backend",
+  "version": "1.0.0",
+  "description": "An example app for helpdesk management",
+  "main": "index.js",
+  "engines": {
+    "node": "12.18.2"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.19.0",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "express-session": "^1.17.1",
+    "faker": "^5.1.0",
+    "fs-extra": "^9.0.1",
+    "graphql": "^15.4.0",
+    "graphql-compose": "^7.23.0",
+    "graphql-compose-connection": "^8.0.1",
+    "graphql-compose-mongoose": "^9.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "loglevel": "^1.6.8",
+    "mongoose": "^5.11.4",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "twitter-api-client": "^1.2.1",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/register": "^7.10.4",
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "node .",
+    "build": "babel --delete-dir-on-start --out-dir dist --copy-files --ignore \"**/__tests__/**,**/__mocks__/**\" --no-copy-ignored src"
+  },
+  "keywords": [],
+  "author": "Niraj Georgian <nirajgeorgian@gmail.com> (https://nirajgeorgian.me/)",
+  "license": "MIT"
+}
